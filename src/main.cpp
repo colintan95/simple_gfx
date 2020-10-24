@@ -1,10 +1,10 @@
 #include <iostream>
 #include <cstdlib>
 
-#include "scene.h"
+#include "model.h"
 
 int main() {
-  std::cout << "Hello, World!" << std::endl;
+  LoadMeshFromFile("assets/cube/cube.obj", "assets/cube");
   
   return 0;
 }
