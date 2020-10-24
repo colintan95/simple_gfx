@@ -7,4 +7,4 @@ struct Light {
   glm::vec3 position;
 };
 
-#endif // LIGHT_H_
+#endif  // LIGHT_H_

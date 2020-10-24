@@ -5,4 +5,4 @@ struct Model {
 
 };
 
-#endif // MODEL_H_
+#endif  // MODEL_H_

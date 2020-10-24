@@ -3,13 +3,15 @@
 
 #include <vector>
 
+#include "camera.h"
 #include "light.h"
 #include "model.h"
 
-class Scene {
-private:
-  std::vector<Light> lights_;
-  std::vector<Model> models_;
+struct Scene {
+  Camera camera;
+
+  std::vector<Light> lights;
+  std::vector<Model> models;
 };
 
-#endif // SCENE_H_
+#endif  // SCENE_H_
