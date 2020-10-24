@@ -2,13 +2,14 @@
 #define MODEL_H_
 
 #include <optional>
-#include <string_view>
+#include <string>
 
 struct Mesh {
 
 };
 
-std::optional<Mesh> LoadMeshFromFile(std::string_view model_path, std::string_view material_dir);
+std::optional<Mesh> LoadMeshFromFile(const std::string& model_path, 
+                                     const std::string& material_dir);
 
 struct Model {
 
